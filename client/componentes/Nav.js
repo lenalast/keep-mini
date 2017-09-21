@@ -9,9 +9,6 @@ const Nav = () => (
     <NavLink to="/lists">
       Lists
     </NavLink>
-    <NavLink to="/test">
-      Test
-    </NavLink>
   </div>
 );
 

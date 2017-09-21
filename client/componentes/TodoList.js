@@ -1,6 +1,5 @@
 import React, {Component} from 'react';
 import CreateTodos from './CreateTodos';
-import fetchData  from '../api/Mockdata';
 import get from 'axios';
 import {Route, Link} from 'react-router-dom';
 

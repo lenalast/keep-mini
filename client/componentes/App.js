@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import {BrowserRouter as Router, Route} from 'react-router-dom';
 import TodoList from './TodoList';
 import Header from './Header';
-import Test from './Test';
+import Home from './Home';
 
 class App extends Component {
 
@@ -11,8 +11,8 @@ class App extends Component {
       <Router>
         <div className="app">
           <Route component={Header}/>
+          <Route exact path="/" component={Home}/>
           <Route path="/lists" component={TodoList}/>
-          <Route path="/test" component={Test}/>
         </div>
       </Router>
     );

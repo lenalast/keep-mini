@@ -41,13 +41,29 @@ a {
     font-weight: 800;
 }
 
-.form {
+.home {
     display: flex;
     justify-content: center;
+    padding: 20px;
+}
+
+.home-text-container {
+    width: 50%;
+    padding: 20px;
+    font-family: Segan, sans-serif;
+    font-weight: 800;
+    background-color: white;
+    box-shadow: #a9a9a9 0 2px 2px 0;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    width: 100%;
 }
 
 input {
-    width: 600px;
+    width: 50%;
     margin-top: 40px;
     padding: 20px;
     border: none;
@@ -62,7 +78,7 @@ input {
 .tasks-list {
     margin: 40px 20px 20px 20px;
     padding: 20px;
-    width: 600px;
+    width: 50%;
     height: auto;
     font-family: "Segan", sans-serif;
     font-weight: 600;
@@ -79,11 +95,10 @@ input {
     text-decoration: line-through;
 }
 
-
 /*input[type="checkbox"].selected + label {*/
-    /*color: hotpink;*/
+/*color: hotpink;*/
 /*}*/
 
 /*input[type="checkbox"].selected:checked + label {*/
-    /*color: #428bca;*/
+/*color: #428bca;*/
 /*}*/
