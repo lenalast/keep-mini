@@ -2,7 +2,7 @@
   "todos": [
     {
       "desc": "Yoga",
-      "isDone": false,
+      "isDone": true,
       "id": 1
     },
     {
@@ -17,23 +17,177 @@
     },
     {
       "desc": "Take a shower",
-      "isDone": false,
+      "isDone": true,
       "id": 4
     },
     {
       "desc": "Feed the webcat",
-      "isDone": false,
+      "isDone": true,
       "id": 5
     },
     {
       "desc": "Eat my shorts!",
-      "isDone": false,
+      "isDone": true,
       "id": 6
     },
     {
       "desc": "Buy wine",
-      "isDone": false,
+      "isDone": true,
       "id": 10
+    },
+    {
+      "desc": "Sleep",
+      "isDone": true,
+      "id": 11
+    },
+    {
+      "desc": "Have fun",
+      "isDone": true,
+      "id": 12
+    },
+    {
+      "desc": "Smile",
+      "isDone": true,
+      "id": 13
+    },
+    {
+      "desc": "Clean apartmen",
+      "isDone": true,
+      "id": 14
+    },
+    {
+      "desc": "Clean",
+      "isDone": true,
+      "id": 15
+    },
+    {
+      "desc": "Bolager",
+      "isDone": false,
+      "id": 16
+    },
+    {
+      "desc": "tjo",
+      "isDone": false,
+      "id": 17
+    },
+    {
+      "isDone": false,
+      "id": 18
+    },
+    {
+      "isDone": false,
+      "id": 19
+    },
+    {
+      "isDone": false,
+      "id": 20
+    },
+    {
+      "desc": "sweet",
+      "isDone": false,
+      "id": 21
+    },
+    {
+      "desc": "LAst",
+      "isDone": false,
+      "id": 22
+    },
+    {
+      "desc": "geting",
+      "isDone": false,
+      "id": 23
+    },
+    {
+      "desc": "Kul",
+      "isDone": false,
+      "id": 24
+    }
+  ],
+  "todoLists": [
+    {
+      "name": "Lenas lista",
+      "todos": [
+        {
+          "id": 9,
+          "desc": "Städa",
+          "isDone": false
+        },
+        {
+          "id": 10,
+          "desc": "Yoga",
+          "isDone": false
+        }
+      ],
+      "id": 1
+    },
+    {
+      "name": "Stefans lista",
+      "id": 2,
+      "todos": [
+        {
+          "id": 11,
+          "desc": "Min första att göra",
+          "isDone": false
+        }
+      ]
+    },
+    {
+      "name": "Handla",
+      "id": 3,
+      "todos": [
+        {
+          "id": 1,
+          "desc": "Köttfärs",
+          "isDone": false
+        },
+        {
+        "id": 2,
+        "desc": "Risnudlar",
+        "isDone": false
+        }
+      ]
+    },
+    {
+      "name": "Webbkatten",
+      "id": 4,
+      "todos": [
+        {
+          "id": 11,
+          "desc": "Klippa klorna",
+          "isDone": false
+        },
+        {
+          "id": 12,
+          "desc": "Vaccinera",
+          "isDone": false
+        },
+        {
+          "id": 13,
+          "desc": "Hashtaga på insta",
+          "isDone": false
+        }
+      ]
+    },
+    {
+      "name": "Lena",
+      "id": 5,
+      "todos": [
+        {
+          "id": 1,
+          "desc": "Ringa dagis",
+          "isDone": false
+        },
+        {
+          "id": 2,
+          "desc": "Hot oil inpackning",
+          "isDone": false
+        },
+        {
+          "id": 3,
+          "desc": "Skratta",
+          "isDone": false
+        }
+      ]
     }
   ]
 }

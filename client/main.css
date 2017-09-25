@@ -56,10 +56,15 @@ a {
     box-shadow: #a9a9a9 0 2px 2px 0;
 }
 
+.wrapper {
+    /*display: flex;*/
+    /*justify-content: center;*/
+    width: 100%;
+}
+
 form {
     display: flex;
     justify-content: center;
-    width: 100%;
 }
 
 input {
@@ -75,10 +80,19 @@ input {
     justify-content: center;
 }
 
+.list-container {
+    display: flex;
+    justify-content: center;
+}
+
+.list-wrapper {
+    width: 50%;
+}
+
 .tasks-list {
     margin: 40px 20px 20px 20px;
     padding: 20px;
-    width: 50%;
+    min-width: 50%;
     height: auto;
     font-family: "Segan", sans-serif;
     font-weight: 600;
@@ -86,9 +100,13 @@ input {
     box-shadow: #a9a9a9 0 2px 2px 0;
 }
 
+.todo-name {
+    margin-bottom: 12px;
+}
+
 .list {
-    min-width: 200px;
-    margin: 12px 0;
+    display: block;
+    margin-bottom: 12px;
 }
 
 .checked {

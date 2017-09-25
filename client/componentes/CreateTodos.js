@@ -23,11 +23,14 @@ class CreateTodos extends Component {
     e.preventDefault();
 
     const todo = {
+      name: "",
+      todos: [{
       desc: this.refs.value,
       isDone: false
+      }]
     }
 
-    axios.post('http://localhost:4000/todos', todo)
+    axios.post('http://localhost:4000/todolists/' + id, todo)
       .then(response => {
         this.refs.value = "";
         createList(response.data)
