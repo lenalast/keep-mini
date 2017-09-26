@@ -36,9 +36,8 @@ a {
 
 .brand-name {
     margin-left: 20px;
-    font-family: "Segan", sans-serif;
-    font-size: 24px;
-    font-weight: 800;
+    font-family: "Product Sans", Arial, sans-serif;
+    font-size: 20px;
 }
 
 .home {
@@ -50,15 +49,13 @@ a {
 .home-text-container {
     width: 50%;
     padding: 20px;
-    font-family: Segan, sans-serif;
-    font-weight: 800;
+    font-family: 'Roboto Slab','Times New Roman',serif;
+    font-size: 14px;
     background-color: white;
     box-shadow: #a9a9a9 0 2px 2px 0;
 }
 
 .wrapper {
-    /*display: flex;*/
-    /*justify-content: center;*/
     width: 100%;
 }
 
@@ -94,8 +91,8 @@ input {
     padding: 20px;
     min-width: 50%;
     height: auto;
-    font-family: "Segan", sans-serif;
-    font-weight: 600;
+    font-family: 'Roboto Slab','Times New Roman',serif;
+    font-size: 14px;
     background-color: white;
     box-shadow: #a9a9a9 0 2px 2px 0;
 }

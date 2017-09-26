@@ -22,6 +22,7 @@ class ListName extends Component {
 
     const listNameValue = {
       name: this.refs.value,
+      todos: []
     }
 
     axios.post('http://localhost:4000/todolists', listNameValue)

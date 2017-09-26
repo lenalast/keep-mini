@@ -38,15 +38,18 @@ class TodoList extends Component {
             <div className="list-container">
               <div className="tasks-list">
                 {
-                  todoLists.filter(todolist => todolist)
-                    .map((todolist, i) =>
-                      <Link key={i}
-                            className="list"
-                            to="/lists/mylist"
-                            onClick={() => this.setState({tasks: todolist.todos})}>
-                        {todolist.name}
-                      </Link>
-                    )
+                  todoLists.length ?
+                    todoLists.filter(todolist => todolist)
+                      .map((todolist) =>
+                        <Link key={todolist.id}
+                              className="list"
+                              to="/lists/mylist"
+                              onClick={() => this.setState({tasks: todolist.todos})}>
+                          {todolist.name}
+                        </Link>
+                      )
+                    :
+                    <div>No lists yet!</div>
                 }
               </div>
             </div>
@@ -54,13 +57,22 @@ class TodoList extends Component {
         }/>
         <Route exact path="/lists/mylist" render={() =>
           <div className="list-wrapper">
+
+            {/*/* Todo: Map todoLists to get the id for the list that the user clicks on?*/}
+            {/** Or is there another way to do it?*/}
+
+            <CreateTodos tasksId={todoLists.id}/>
+            {console.log("list id:", todoLists.id)}
             <div className="tasks-list">
               {
-                tasks.filter(task => task)
-                  .map((task, i) =>
-                    <div className="todo-name" key={i}>
-                      {task.desc}
-                    </div>)
+                tasks.length ?
+                  tasks.filter(task => task)
+                    .map((task, i) =>
+                      <div className="todo-name" key={i}>
+                        {task.desc}
+                      </div>)
+                  :
+                  <div>No todos for this list</div>
               }
               <Link className="list-link" to="/lists">See all lists</Link>
             </div>

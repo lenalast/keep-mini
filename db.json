@@ -105,7 +105,6 @@
   ],
   "todoLists": [
     {
-      "name": "Lenas lista",
       "todos": [
         {
           "id": 9,
@@ -115,6 +114,11 @@
         {
           "id": 10,
           "desc": "Yoga",
+          "isDone": false
+        },
+        {
+          "id": 11,
+          "desc": "Dricka vin",
           "isDone": false
         }
       ],
@@ -141,9 +145,9 @@
           "isDone": false
         },
         {
-        "id": 2,
-        "desc": "Risnudlar",
-        "isDone": false
+          "id": 2,
+          "desc": "Risnudlar",
+          "isDone": false
         }
       ]
     },
@@ -188,6 +192,11 @@
           "isDone": false
         }
       ]
+    },
+    {
+      "name": "Städlista",
+      "id": 6,
+      "todos": []
     }
   ]
 }
